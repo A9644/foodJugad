@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+p,
+a,
+h3,
+h5,
+.btn,
+strong {
+  font-family: "Itim", cursive;
+}
+strong {
+  font-weight: lighter;
+  color: 355070;
+}
+
+.accordion-button:focus {
+  background-color: #edf2fb;
+}
+.nav-div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #efefef;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
+  transition: all 200ms;
+}
+.nav-link:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.navbar-toggler-icon {
+  color: #edf6f9;
+}
+/* .leftOne {
+  background-color: #efefef;
+}
+
+.rightOne {
+  background-color: #efefef;
+} */
+.foodsection {
+  background-color: #efefef;
+}
+.footerSection {
+  background-color: #efefef;
+}
+.card {
+  background-color: #efefef;
+  border: none;
+}
+.background-img {
+  background-image: url(nback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.faqsection {
+  background-color: #efefef;
+}
+.accordion {
+  background-color: #edf2fb;
+  border: none;
+}
+.accordion-button {
+  background-color: #edf2fb;
+}
+.accordion-item {
+  background-color: #edf2fb;
+  border: none;
+}
+
+@media (max-width: 990px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link {
+    transition: all 200ms;
+  }
+  .nav-link:hover {
+    transform: scale(1.2);
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 19px;
+    text-align: right;
+    font-family: "Itim", cursive;
+  }
+
+  h5 {
+    font-size: 19px;
+    text-align: left;
+    font-family: "Itim", cursive;
+  }
+
+  p {
+    font-size: 12px;
+    text-align: right;
+    font-family: "Itim", cursive;
+  }
+
+  strong {
+    font-size: 12px;
+    text-align: left;
+    font-family: "Itim", cursive;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-right .btn {
+    font-size: 10px;
+    font-family: "Itim", cursive;
+    padding: 2px;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+  .card-text {
+    text-align: left;
+  }
+  .footertext {
+    text-align: left;
+  }
+}
+@media (max-width: 700px) {
+  .background-img {
+    background-image: url("sback.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 576px) and (max-width: 700px) {
+  .card-title {
+    font-size: 15px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .card-btn {
+    font-size: 13px;
+  }
+}
